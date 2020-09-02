@@ -1,2 +1,20 @@
-# Bypass-archive.is-Brave-Dissenter-ban
-This is an extension to bypass archive.is' ban on Brave based browsers. To install this extension first navigate to https://github.com/stevew2131BypassArchiveIs/Bypass-archive.is-Brave-Dissenter-ban/releases and download the latest .crx file released. Next, navigate to either brave://extensions/ or dissenter://extensions/ (whatever browser you are using). Enable Developer mode (you must do this otherwise you won't be able to drag and drop successfully). Drag and drop the .crx file onto the brave/dissenter://extensions/ page. Enjoy!
+# Bypass archive.is' Brave/Dissenter ban
+This is an extension to bypass archive.is' ban on Brave based browsers. To install this extension please follow the appropriate directions which are dependent on what browser you use.
+
+## Brave Browser
+
+ 1. Go to [the releases page](https://github.com/stevew2131BypassArchiveIs/Bypass-archive.is-Brave-Dissenter-ban/releases) and download the latest Source code (zip) released.
+ 2. Extract the entire folder in the zip to a location where you will not be bothered by this folder or ever delete it (the folder must stay on your system in order for the extension to work).
+ 3. Navigate to [brave://extensions/](brave://extensions/).
+ 4. Enable Developer mode.
+ 5. Click "Load Unpacked".
+ 6. Navigate to where you saved the extracted folder and select it.
+ 7. Enjoy!
+
+## Dissenter Browser
+
+ 1. Go to [the releases page](https://github.com/stevew2131BypassArchiveIs/Bypass-archive.is-Brave-Dissenter-ban/releases) and download the latest .crx file.
+ 2. Navigate to [dissenter://extensions/](dissenter://extensions/).
+ 3. Enable Developer mode (this is required for the next step to work).
+ 4. Drag and drop the downloaded .crx file into the [dissenter://extensions/](dissenter://extensions/) page.
+ 5. Enjoy!
