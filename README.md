@@ -1,5 +1,5 @@
 # Bypass archive.is' Brave/Dissenter ban
-This is an extension to bypass archive.is' ban on Brave based browsers. To install this extension please follow the appropriate directions which are dependent on what browser you use.
+This is an extension to bypass archive.is' ban on Brave based browsers. To install this extension please follow the appropriate directions which are dependent on what browser you use. Credit goes to REDDITWASRIGHT on Reddit for making the original script.
 
 ## Brave Browser
 
