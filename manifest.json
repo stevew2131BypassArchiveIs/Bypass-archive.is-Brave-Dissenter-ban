@@ -10,7 +10,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://archive.is/*", "https://archive.vn/*", "https://archive.today/*"],
+      "matches": ["https://archive.is/*", "https://archive.vn/*", "https://archive.today/*", "https://archive.fo/*", "https://archive.li/*", "https://archive.md/*", "https://archive.ph/*"],
 	  "run_at": "document_start",
 	  "all_frames": true,
       "js": ["inject.js"]
