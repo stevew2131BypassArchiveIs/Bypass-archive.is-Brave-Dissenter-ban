@@ -3,18 +3,22 @@
   "name": "Bypass archive.is Brave & Dissenter ban",
   "short_name": "Bypass archive.is ban",
   "description": "This is an extension to bypass archive.is' ban on Brave based browsers.",
-  "version": "1",
+  "version": "3",
   "author": "",
   "browser_action": {
     "default_title": "Bypass archive.is ban"
   },
   "content_scripts": [
     {
-      "matches": ["https://archive.is/*", "https://archive.vn/*", "https://archive.today/*", "https://archive.fo/*", "https://archive.li/*", "https://archive.md/*", "https://archive.ph/*"],
+      "matches": ["https://archive.is/*", "https://archive.vn/*", "https://archive.today/*", "https://archive.fo/*", "https://archive.li/*", "https://archive.md/*", "https://archive.ph/*","https://btdig.com/unsupported-browser"],
 	  "run_at": "document_start",
 	  "all_frames": true,
       "js": ["inject.js"]
     }
   ],
-  "permissions": ["activeTab"]
+  "background": {
+	"scripts": ["background.js"],
+	"persistent": false
+  },
+  "permissions": ["activeTab","cookies","https://archive.is/*", "https://archive.vn/*", "https://archive.today/*", "https://archive.fo/*", "https://archive.li/*", "https://archive.md/*", "https://archive.ph/*"]
 }
