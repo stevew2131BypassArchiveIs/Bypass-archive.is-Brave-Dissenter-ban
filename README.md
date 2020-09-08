@@ -10,7 +10,7 @@ This is an extension to bypass archive.is' ban on Brave based browsers. To insta
  5. Click "Load Unpacked".
  6. Navigate to where you saved the extracted folder and select it.
  7. Once the extension has been added to your browser you must clear old cookies from the archive.* websites. Navigate to dissenter://settings/siteData and start typing in "archive" in the search bar. Delete the site data for each archive.* site listed.
- ![Guide](https://i.imgur.com/n6ch6zS.png)
+ ![Guide](https://i.imgur.com/DCNY1TH.png)
  8. Enjoy!
 
 ## Dissenter Browser
@@ -20,5 +20,5 @@ This is an extension to bypass archive.is' ban on Brave based browsers. To insta
  3. Enable Developer mode (this is required for the next step to work).
  4. Drag and drop the downloaded .crx file into the [dissenter://extensions/](dissenter://extensions/) page.
  5. Once the extension has been added to your browser you must clear old cookies from the archive.* websites. Navigate to brave://settings/siteData and start typing in "archive" in the search bar. Delete the site data for each archive.* site listed.
- ![Guide](https://i.imgur.com/DCNY1TH.png)
+ ![Guide](https://i.imgur.com/n6ch6zS.png)
  6. Enjoy!
