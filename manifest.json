@@ -3,7 +3,7 @@
   "name": "Bypass archive.is Brave & Dissenter ban",
   "short_name": "Bypass archive.is ban",
   "description": "This is an extension to bypass archive.is' ban on Brave based browsers.",
-  "version": "4",
+  "version": "5",
   "author": "",
   "browser_action": {
     "default_title": "Bypass archive.is ban"
