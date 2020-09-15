@@ -11,7 +11,7 @@ chrome.webRequest.onBeforeSendHeaders.addListener(
   function(details) {
     for (var i = details.requestHeaders.length - 1; i >= 0; i--) {
       if (details.requestHeaders[i].name.toLowerCase() === 'User-Agent'.toLowerCase()) {
-        details.requestHeaders.splice(i, 1);
+	details.requestHeaders[i].value = "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko";
       }
 	  if (details.requestHeaders[i].name.toLowerCase() === 'cookie'.toLowerCase()) {
         details.requestHeaders.splice(i, 1);
